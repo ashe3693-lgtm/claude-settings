@@ -1,0 +1,9 @@
+.credentials.json
+.last-cleanup
+backups/
+file-history/
+ide/
+projects/
+sessions/
+settings.json
+.claude/
