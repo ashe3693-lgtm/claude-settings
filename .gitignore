@@ -3,7 +3,13 @@
 backups/
 file-history/
 ide/
-projects/
 sessions/
-settings.json
+shell-snapshots/
 .claude/
+
+# projects配下はmemoryのみ同期、会話ログ(.jsonl)は除外
+projects/**/*.jsonl
+
+# 一時・個人ファイル
+portfolio-review-*.md
+CLAUDEm.d
